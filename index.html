@@ -15,7 +15,7 @@
     </head>
     <body>
         <!-- Navbar -->
-        <div class="container">
+        <div class="container mb-5">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="" />
@@ -51,16 +51,20 @@
         </div>
 
         <!-- Carousel -->
-        <div class="container">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="container mb-5">
+            <div id="carouselExampleIndicators" class="carousel slid pink-bg" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
+                    <div class="carousel-item py-3 px-5 active">
+                        <!-- Dividing the carousel in row and columns just to contain more items in the same row -->
+                        <div class="row align-items-center">
+                            <!-- Have used breakpoint md to make it responsive -->
+                            <!-- It means divide 12 columns in 7 and 5 portions  -->
+                            <!-- Otherwise it will take full width 12 columns -->
                             <div class="col-md-7">
                                 <h1>Mega LCD TV For Sports</h1>
                                 <p>
@@ -75,8 +79,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="row">
+                    <div class="carousel-item py-3 px-5">
+                        <div class="row align-items-center">
                             <div class="col-md-7">
                                 <h1>Cool Dude Headphone</h1>
                                 <p>
@@ -91,8 +95,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="row">
+                    <div class="carousel-item py-3 px-5">
+                        <div class="row align-items-center">
                             <div class="col-md-7">
                                 <h1>X-Box for your living room</h1>
                                 <p>
