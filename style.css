@@ -45,3 +45,7 @@
     background-color: white;
     border-top: none;
 }
+
+#subscribe h6 {
+    color: gray;
+}
