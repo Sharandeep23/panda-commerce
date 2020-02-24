@@ -61,6 +61,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item py-3 px-5 active">
                         <!-- Dividing the carousel in row and columns just to contain more items in the same row -->
+                        <!-- We don't need d-flex here cause row and col are built with flexbox -->
                         <div class="row align-items-center">
                             <!-- Have used breakpoint md to make it responsive -->
                             <!-- It means divide 12 columns in 7 and 5 portions  -->
@@ -120,6 +121,34 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
+            </div>
+        </div>
+
+        <!-- Categories -->
+        <div class="container categories">
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Just to create the column gap -->
+                    <!-- That is created by only changing the color of cat1  -->
+                    <!-- The outwards column color is white -->
+                    <!-- So it looks like a gap has been created actually not -->
+                    <div class="cat1 d-flex align-items-center justify-content-between py-2 px-4">
+                        <h1>Watch</h1>
+                        <img src="images/categories/watch.png" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cat2 d-flex align-items-center justify-content-between py-2 px-4">
+                        <h1>Bag</h1>
+                        <img src="images/categories/bag.png" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cat3 d-flex align-items-center justify-content-between py-2 px-4">
+                        <h1>Shoes</h1>
+                        <img src="images/categories/shoes.png" alt="" />
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Adding JS -->
